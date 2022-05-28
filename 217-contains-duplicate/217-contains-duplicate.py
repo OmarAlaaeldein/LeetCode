@@ -6,4 +6,3 @@ class Solution:
                 dic[nums[i]] = True
             elif dic.get(nums[i], None) == True:
                 return 'true'
-        print(dic)
