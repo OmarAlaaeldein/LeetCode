@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select c.firstName,c.lastName,IF(l.city is not NULL,l.city,NULL) as city,IF(l.state is not NULL,l.state,NULL) as state from Person as c left join Address as l on c.personId=l.personId
