@@ -1,6 +1,7 @@
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
+        // O(1) space solution
         int rows=matrix.size();
         int cols=matrix[0].size();
         int row0=0; // indicator to save the status of row0
